@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.img-container {
+    flex: 1;
+}
+
+.img-container > * {
+    position: absolute;
+}
+
+.img-container > img {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 33.33vw;
+}
+
+.content {
+    flex: 2;
+}
