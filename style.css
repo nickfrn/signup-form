@@ -67,4 +67,23 @@ body {
 
 .content {
     flex: 2;
+    padding: 10vw 10vw 10vw 5vw;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 5vh;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+fieldset > div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
