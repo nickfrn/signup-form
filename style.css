@@ -86,6 +86,7 @@ html, body {
     background-color: white;
     flex-grow: 1;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, .2);
+    padding: 2vh 0;
 }
 
 fieldset {
@@ -130,4 +131,29 @@ input:focus {
 
 input:invalid {
     border: 1px solid red;
+}
+
+button {
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 1.2rem 4rem;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.login-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: auto;
+    padding-left: 5vw;
+}
+
+.login-text > a {
+    text-decoration: none;
+    color: #596D48;
 }
