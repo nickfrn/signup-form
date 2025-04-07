@@ -69,29 +69,65 @@ html, body {
 
 .content {
     flex: 2;
-    padding: 10vw 10vw 10vw 5vw;
-    background-color: lightgrey;
+    background-color: #f8f9fa;
     height: 100%;
 }
 
 .text {
     font-weight: 700;
     font-size: 2rem;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 5vw;
     padding-bottom: 5vh;
 }
 
-form {
+.form {
     background-color: white;
+    flex-grow: 1;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, .2);
 }
 
 fieldset {
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
+    margin: 0;
+    border: 0;
+    padding-left: 5vw;
+    padding-right: 15vw;
+}
+
+legend {
+    font-weight: 500;
+    font-size: 1.8rem;
 }
 
 fieldset > div {
     display: flex;
     flex-direction: column;
     width: 45%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+label {
+    font-weight: 500;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    height: 2rem;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none; /* remove browser default outline when focused */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+input:invalid {
+    border: 1px solid red;
 }
